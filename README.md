@@ -6,13 +6,13 @@
 
 # CrowdFunding Campaign
 
-In that project we create a campaign. The Owner of campaign fix the minimum Amount for Contribution. Any user cannot contribute less then minimum amount.
+In that project we create a campaign. The Owner of the campaign fixed the minimum Amount for Contribution. Any user cannot contribute by less than minimum amount.
 
-User which contribute in campaign called contributer
+User which contribute in campaign to be a contributer
 
-After creating Campaign only Owner of the campaign will create a Request.In that Request Owner describe the Purpose, Amount and Recepient of Request.
+After creating Campaign only Owner of the campaign will create a Request.In that Request Owner will describe the Purpose, Amount and Recepient of Request.
 
-If half or greater than half contributer will approve the request then Owner Finalize Request and send Funds to the Recepient
+If more than half contributors will approve the request then Owner will Finalized Request and send Funds to the Recepient.
 
 
 ## Acknowledgements
@@ -82,4 +82,8 @@ Please adhere to this project's `code of conduct`.
 😄 Pronouns...
 
 ⚡️ Fun fact...
+
+
+## 🛠 Skills
+Solidity, Javascript, ReactJs, PHP, HTML, CSS...
 
