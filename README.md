@@ -26,8 +26,10 @@ If more than half contributors will approve the request then Owner will Finalize
 
 ## Demo
 
-Insert gif or link to demo
-
+[Live Project](https://crowdfunded-campaign.vercel.app)
+``
+   Only Connect goerli Test Network at Live Project
+``
 
 ## Run Locally
 
@@ -56,6 +58,12 @@ Start the server
   npm run start
 ```
 
+Edit src/config.js file
+
+```bash
+  Enter Chain ID
+  Enter Deployed Address
+```
 
 ## Contributing
 
