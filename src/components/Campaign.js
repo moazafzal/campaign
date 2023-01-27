@@ -63,7 +63,7 @@ export default function Campaign(props) {
     const addContribution = async () => {
         if (contributionCost >= minimumContribution) {
             setcontributionError(false)
-            const c = await campaign.connect(providers.getSigner()).contribute({ value: toEther(2.5) })
+            const c = await campaign.connect(providers.getSigner()).contribute({ value: toEther(contributionCost) })
             await c.wait()
             props.showAlert('Contribution added','success')
             setContributionCost(null)
